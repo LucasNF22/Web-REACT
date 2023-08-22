@@ -22,9 +22,14 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#131424',
-        secondary: '#393A47',
-        accent: '#F13024',
+        // primary: '#131424',
+        // secondary: '#393A47',
+        // accent: '#F13024',
+        primary: '#1c232b', 
+        accent: '#1275bb',
+        secondary: '#c9e8fa',
+        blanco: '#fafafa',
+        gris: '#37424f',
       },
       backgroundImage: {
         explosion: 'url("/bg-explosion.png")',
@@ -37,7 +42,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: [`var(--font-poppins)`, 'sans-serif'],
-        sora: [`var(--font-inter)`, 'sans-serif'],
+        inter: [`var(--font-inter)`, 'sans-serif'],
       },
     },
   },

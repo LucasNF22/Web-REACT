@@ -14,7 +14,8 @@ import TopLeftImg from './TopLeftImg'
 
 const Layout = ({children}) => {
   return (
-    <div className={`page bg-site text-white bg-cover bg-no-repeat ${inter.variable} font-sora relative`}>
+    // <div className={`page bg-site text-white bg-cover bg-no-repeat ${inter.variable} font-sora relative`}>
+    <div className={`page bg-primary text-blanco bg-cover bg-no-repeat ${inter.variable} font-sora relative`}>
       <TopLeftImg />
       <Nav />
       <Header />
