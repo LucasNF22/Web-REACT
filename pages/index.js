@@ -54,7 +54,7 @@ const Home = () => {
           </motion.div>
         </div>
       </div>
-      <div className='basis-[40%] h-full flex-col items-center  text-white text-center flex justify-center container '>
+      {/* <div className='basis-[40%] h-full flex-col items-center  text-white text-center flex justify-center container '>
         <motion.div 
           className='border w-[400px] h-[400px] rounded-full bg-gris backdrop-filter-none object-contain'
             variants={fadeIn('center', 0.6)}
@@ -68,10 +68,10 @@ const Home = () => {
           {/* <spline-viewer 
             url="https://prod.spline.design/F3FBGaxqRm9mmlCe/scene.splinecode"></spline-viewer> */}
         
-        </motion.div> 
+        {/* </motion.div>  */}
         
 
-      </div>
+      {/* </div} */}
     </div>
     </>
 
