@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 
 import {
   FaHtml5,
@@ -85,6 +87,8 @@ export const aboutData = [
     ],
   },
 ];
+
+import Avatar from '../../components/Avatar'
 
 const About = () => {
   return <div>About</div>;

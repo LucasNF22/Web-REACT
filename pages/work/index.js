@@ -1,5 +1,13 @@
+
+
 const Work = () => {
-  return <div>Work</div>;
+  return (
+    <div className="h-full bg-">
+      <div>
+
+      </div>
+    </div>
+  )
 };
 
 export default Work;

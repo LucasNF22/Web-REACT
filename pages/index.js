@@ -18,7 +18,7 @@ const Home = () => {
       <NextScript type="module" src="https://unpkg.com/@splinetool/viewer@0.9.425/build/spline-viewer.js"></NextScript>
     </Head>
     <div className='bg-primary/60 flex justify-center w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
-      <div className='basis-[40%] h-full '>
+      <div className=' h-full '>
         <div className='text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto' >
           <motion.h1
             variants={fadeIn('left', 0.2)}
@@ -37,7 +37,8 @@ const Home = () => {
             animate='show'
             exit='hidden'
           >
-            dskjghfñsdfjg djhgn pejrhg pqehtg wekgjnp kjpg wer.
+            dskjghfñsdfjg djhgn pejrhg pqehtg wekgjnp 
+            kjpg wer.
             gjerpg owjerpgwer g.wekrhg pwerngñegnpiug
           </motion.p>
           <div className='flex justify-center xl:hidden relative'>
