@@ -9,10 +9,10 @@ import { fadeIn } from '../variants';
 
 const Header = () => {
   return (
-  <header className="absolute z-30 w-full flex items-center px-16 xl:px-0 xl:h-[90px]">
+  <header className="z-30 w-full flex items-center px-16 xl:px-0 xl:h-[90px]">
     <div className="container mx-auto">
       <div 
-        className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8"
+        className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8 md:gap-y-6 md:py-8"
         variants={fadeIn('right', 0.3)}
         initial='hidden'
         animate='show'
@@ -26,9 +26,9 @@ const Header = () => {
         >
           <Link href={''} >
             <Image
-              src={'/logo.svg'}
-              width={200}
-              height={48}
+              src={'/logo-white.svg'}
+              width={100}
+              height={100}
               alt=''
               priority={true}
             />
