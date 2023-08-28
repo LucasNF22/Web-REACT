@@ -15,10 +15,10 @@ import TopLeftImg from './TopLeftImg'
 const Layout = ({children}) => {
   return (
     // <div className={`page bg-site text-white bg-cover bg-no-repeat ${inter.variable} font-sora relative`}>
-    <div className={`page bg-primary text-blanco bg-cover bg-no-repeat ${inter.variable} font-sora relative`}>
+    <div className={`page bg-primary text-blanco bg-cover bg-no-repeat ${inter.variable} font-sora relative bg-gradient-to-r from-primary/10 via-black/30 to-black/10`}>
       {/* <TopLeftImg /> */}
-      <Nav />
       <Header />
+      <Nav />
       {children}
     </div>
   )

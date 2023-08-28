@@ -17,7 +17,7 @@ const Home = () => {
     <Head>
       <NextScript type="module" src="https://unpkg.com/@splinetool/viewer@0.9.425/build/spline-viewer.js"></NextScript>
     </Head>
-    <div className='bg-primary/60 flex justify-center w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
+    <div className=' flex justify-center w-full h-full '>
       <div className=' h-full '>
         <div className='text-center flex flex-col justify-start pt-10 xl:pt-40 xl:text-left h-full container mx-auto' >
           <motion.h1

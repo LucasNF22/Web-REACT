@@ -1,5 +1,4 @@
-import { Particles } from 'react-tsparticles';
-import { loadFull } from 'tsparticles';
+
 import { useCallback } from 'react';
 // import poligono from ''
 
@@ -12,12 +11,7 @@ const ParticlesContainer = () => {
 
   const particlesLoaded = useCallback( async() => {}, [] );
 
-  return <Particles 
-      id='tsparticles' 
-      init={particlesInit} 
-      loaded={particlesLoaded}
-      
-      />
+  return <></>
 
 };
 
