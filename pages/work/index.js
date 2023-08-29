@@ -6,7 +6,7 @@ import { fadeIn } from '../../variants';
 
 const Work = () => {
   return (
-    <div className="h-full bg-primary/30 py-36 flex items-center">
+    <div className=" bg-primary/30 flex items-start xl:items-center pt-10 h-full md:pb-[120px]">
       
       <div className="container mx-auto">
         
@@ -21,24 +21,25 @@ const Work = () => {
               exit='hidden'
 
             >
-              Hola <span className='text-accent'>Mundo</span>
+             <span className='text-secondary'>{"{"}</span> 
+             Hola 
+             <span className='text-accent'>Mundo</span>
+             <span className='text-secondary'>{"}"}</span>
             </motion.h2>
             <motion.p
-              className='mb-4 max-w-[400px] mx-auto lg:mx-0'
+              className='mb-4 max-w-[300px] mx-auto lg:mx-0'
               variants={fadeIn('up', 0.4)}
               initial='hidden'
               animate='show'
               exit='hidden'
             >
-              A alalala lala longg...  dwskhflasdbfasdliflaskdhf
-              lakjsdhflkajshflkjashdflkjahsfsdfasdfgasdf
-              asdfasdfasdfasdfasfasdf.asdfasdfasdfasdfasfasdfasdfasdf
+              lflufgsdf dflksuhflsfa- aslduflsflfh sdfksghfs. sdf  df.lflufgsdf dflksuhflsfa- aslduflsflfh sdfksghfs. sdf  df.
             </motion.p>
 
           </div>
           
           <motion.div 
-            className='w-full xl:max-w-[65%]'
+            className='w-full xl:max-w-[65%] pb-20'
             variants={fadeIn('down', 0.6)}
             initial='hidden'
             animate='show'
