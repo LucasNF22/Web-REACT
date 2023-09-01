@@ -14,20 +14,20 @@ export const workSlider = {
     {
       images: [
         {
-          title: "BlogDeCafe",
-          path: "/blogDeCafe.jpg",
-        },
-        {
-          title: "App-clima",
-          path: "/appClima.jpg",
-        },
-        {
-          title: "Store FrontEnd",
-          path: "/fe-store.jpg",
-        },
-        {
           title: "Let-Bar",
           path: "/let-bar.jpg",
+        },
+        {
+          title: "Dashboard/Let-Bar",
+          path: "/panel-control-let-bar.jpg",
+        },
+        {
+          title: "Primavera Sound",
+          path: "/primaveraSound.jpg",
+        },
+        {
+          title: "BlogDeCafe",
+          path: "/blogDeCafe.jpg",
         },
 
       ],
@@ -90,7 +90,7 @@ const WorkSlider = () => {
                           alt=""
                         />
                         <div
-                          className="absolute inset-0 bg-gradient-to-l from-transparent via-[#1275bb] to-[#c9e8fa] 
+                          className="absolute inset-0 bg-gradient-to-b from-transparent via-[#1275bb] to-[#c9e8fa] 
                                     opacity-0 group-hover:opacity-100 transition-all duration-500 "
                         ></div>
                         <div className="absolute bottom-0  group-hover:-translate-y-32 group-hover:md:-translate-y-32 group-hover:xl:-translate-y-32 transition-all duration-300">
