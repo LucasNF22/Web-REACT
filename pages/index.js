@@ -1,11 +1,8 @@
 
-
-
 import Head from 'next/head';
 import ProjectsBtn from '../components/ProjectsBtn';
 import { fadeIn } from '../variants';
 import { motion } from 'framer-motion'
-import ParticlesContainer from '../components/ParticlesContainer';
 import { NextScript } from 'next/document';
 
 
@@ -15,7 +12,8 @@ const Home = () => {
   return (
     <>
     <Head>
-      <NextScript type="module" src="https://unpkg.com/@splinetool/viewer@0.9.425/build/spline-viewer.js"></NextScript>
+   
+      <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.434/build/spline-viewer.js"></script>
     </Head>
     <div className=' flex justify-center w-full  '>
       <div className='  '>
@@ -54,20 +52,26 @@ const Home = () => {
         </div>
       </div>
       <div className='basis-[40%] h-full flex-col items-center text-white text-center justify-start pt-10 xl:pt-40 container hidden lg:flex '>
-        <motion.div 
-          className='border w-[400px] h-[400px] rounded-full bg-gris backdrop-filter-none object-contain'
+       
+         <motion.div 
+          className='border w-[500px] h-[500px] rounded-full bg-gris flex justify-center items-center'
             variants={fadeIn('center', 0.6)}
             initial='hidden'
             animate='show'
             exit='hidden' 
           >     
 
-            <ParticlesContainer />      
-          
-          <spline-viewer 
-            url="https://prod.spline.design/F3FBGaxqRm9mmlCe/scene.splinecode"></spline-viewer> 
+          <div>
+
+
+         
+          <spline-viewer   
+
+            loading-anim 
+            url="https://prod.spline.design/F3FBGaxqRm9mmlCe/scene.splinecode"></spline-viewer>
         
-         </motion.div>  
+        </div>
+         </motion.div>   
         
 
        </div>
