@@ -33,7 +33,8 @@ const Work = () => {
               animate='show'
               exit='hidden'
             >
-              lflufgsdf dflksuhflsfa- aslduflsflfh sdfksghfs. sdf  df.lflufgsdf dflksuhflsfa- aslduflsflfh sdfksghfs. sdf  df.
+              Estos son algunos de los trabajos realizados a lo largo de mi desarrollo:
+
             </motion.p>
 
           </div>

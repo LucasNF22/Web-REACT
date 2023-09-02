@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Scrollbar, Mousewheel } from "swiper";
+import { Pagination, Mousewheel } from "swiper";
 import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image";
 
@@ -22,8 +22,8 @@ export const workSlider = {
           path: "/panel-control-let-bar.jpg",
         },
         {
-          title: "Primavera Sound",
-          path: "/primaveraSound.jpg",
+          title: "App-clima",
+          path: "/appClima.jpg",
         },
         {
           title: "BlogDeCafe",
@@ -35,21 +35,18 @@ export const workSlider = {
     {
       images: [
         {
-          title: "BlogDeCafe",
-          path: "/blogDeCafe.jpg",
-        },
-        {
-          title: "App-clima",
-          path: "/appClima.jpg",
-        },
-        {
           title: "Store FrontEnd",
           path: "/fe-store.jpg",
         },
         {
-          title: "Let-Bar",
-          path: "/let-bar.jpg",
+          title: "RealState-dev",
+          path: "/realStateDev.jpg",
         },
+        {
+          title: "Primavera Sound",
+          path: "/primaveraSound.jpg",
+        },
+  
 
       ],
     },
