@@ -1,4 +1,4 @@
-import { BsArrowRight } from 'react-icons/BS'
+import { BsArrowRight } from 'react-icons/bs'
 import { fadeIn } from '../../variants'; 
 import { motion } from "framer-motion"; 
 
@@ -29,9 +29,9 @@ const Contact = () => {
             </div>
               <input type='text' placeholder='Asunto' className='input border-secondary'/>
               <textarea placeholder='Mensaje' className='textarea border-secondary'></textarea>
-              <button className='btn rounded-full border border-secondary/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group'>
+              <button className='btn rounded-full border border-secondary/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent  group hover:drop-shadow-glow '>
                 <span className='group-hover:translate-x-[120%] group-hover:opacity-0 transition-all duration-300'>Enviar</span>
-                <BsArrowRight className='-translate-x-[120%] opacity-0 group-hover:flex group-hover:-translate-x-0 group-hover:opacity-100 transition-all duration-300 absolute text-[28px]'/>
+                <BsArrowRight className='-translate-x-[120%] opacity-0 group-hover:flex group-hover:-translate-x-0 group-hover:opacity-100 transition-all duration-300 absolute text-[28px] '/>
               </button>
           </motion.form>
         </div>

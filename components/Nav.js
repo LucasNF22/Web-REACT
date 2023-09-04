@@ -12,18 +12,10 @@ import {
 export const navData = [
   { name: 'home', path: '/', icon: <HiHome /> },
   { name: 'about', path: '/about', icon: <HiUser /> },
-  { name: 'services', path: '/services', icon: <HiRectangleGroup /> },
+  { name: 'skils', path: '/skils', icon: <HiRectangleGroup /> },
   { name: 'work', path: '/work', icon: <HiViewColumns /> },
-  {
-    name: 'testimonials',
-    path: '/testimonials',
-    icon: <HiChatBubbleBottomCenterText />,
-  },
-  {
-    name: 'contact',
-    path: '/contact',
-    icon: <HiEnvelope />,
-  },
+  { name: 'testimonials', path: '/testimonials', icon: <HiChatBubbleBottomCenterText />, },
+  { name: 'contact', path: '/contact', icon: <HiEnvelope />, },
 ];
 
 
@@ -52,7 +44,7 @@ const Nav = () => {
           return(
             <Link
               className={`${link.path === pathName && 'text-accent' }
-                relative flex items-center group hover:text-accent transition-all
+                relative flex items-center group hover:text-accent hover:drop-shadow-glow transition-all
                 duration-200 `
               }
               href={ link.path }

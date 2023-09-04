@@ -20,7 +20,7 @@ const Home = () => {
             
             </div>
         <div className="  ">
-          <div className="text-center flex flex-col justify-start pt-10 xl:pt-40 xl:text-left h-full container mx-auto">
+          <div className="text-center flex flex-col justify-start pt-10 xl:pt-40 xl:text-left h-full container mx-auto ">
             <motion.h1
               variants={fadeIn("left", 0.2)}
               initial="hidden"
