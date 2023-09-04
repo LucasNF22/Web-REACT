@@ -2,7 +2,7 @@ import Head from "next/head";
 import ProjectsBtn from "../components/ProjectsBtn";
 import { fadeIn } from "../variants";
 import { motion } from "framer-motion";
-import { NextScript } from "next/document";
+
 
 const Home = () => {
   return (
