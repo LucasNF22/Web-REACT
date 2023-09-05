@@ -12,7 +12,7 @@ import "swiper/css/scrollbar";
 export const workSlider = {
   slides: [
     {
-      images: [
+      works: [
         {
           title: "Let-Bar",
           path: "/let-bar.jpg",
@@ -33,7 +33,7 @@ export const workSlider = {
       ],
     },
     {
-      images: [
+      works: [
         {
           title: "Store FrontEnd",
           path: "/fe-store.jpg",
@@ -71,36 +71,41 @@ const WorkSlider = () => {
         return (
           <SwiperSlide key={index}>
             <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2 lg:grid-rows-2 gap-4 h-max pb-10 ">
-              {slide.images.map((image, index) => {
+              {slide.works.map((work, index) => {
                 return (
                   <div
-                    className="relative rounded-lg overflow-hidden flex items-center justify-center group aspect-video"
+                    className="relative overflow-hidden rounded-lg flex items-center justify-center group aspect-video "
                     key={index}
                   >
-                    <div className="flex items-center justify-center relative overflow-hidden group ">
+                    <div className="flex items-center justify-center relative overflow-hidden group">
                       
                         <Image
+                          className="w-full"
                           key={index}
-                          src={image.path}
+                          src={work.path}
                           width={500}
                           height={100}
                           alt=""
                         />
-                        <div
-                          className="absolute inset-0 bg-gradient-to-b from-transparent via-[#1275bb] to-[#c9e8fa] 
-                                    opacity-0 group-hover:opacity-100 transition-all duration-500 "
-                        ></div>
-                        <div className="absolute bottom-0  group-hover:-translate-y-32 group-hover:md:-translate-y-32 group-hover:xl:-translate-y-32 transition-all duration-300">
-                          <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
-                            <div className="delay-100">{image.title}</div>
-                            <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
-                              {image.path}
-                            </div>
-                            <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">
+                        <div className="absolute inset-0 bg-accent/50 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-all duration-500 "></div>
+                        
+                        <div className="absolute flex flex-col transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-[100%] ">
+                          <div className="flex justify-center items-center gap-x-2 text-lg tracking-wide ">
+                            
+                            <div className=" -translate-x-[120%] group-hover:-translate-x-0 text-2xl transition-all duration-300">{work.title}</div>
+                            <div className="text-xl translate-x-[120%] group-hover:translate-x-0  transition-all duration-300">
                               <BsArrowRight />
                             </div>
+                          
+                          </div>
+                          <div className="flex flex-col items-center gap-x-2 text-lg tracking-wide pt-6 ">
+                            
+                            <div className=" translate-y-[120%] group-hover:translate-y-0 transition-all duration-300">Stack utilizado</div>
+                            <div className=" translate-y-[120%] group-hover:translate-y-0 transition-all duration-500 ">iconos del stack</div> {/*  // buscar en react-icons */}
+                                         
                           </div>
                         </div>
+                        
                      
                     </div>
                   </div>

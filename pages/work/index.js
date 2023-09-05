@@ -27,7 +27,7 @@ const Work = () => {
              <span className='text-secondary'>{"}"}</span>
             </motion.h2>
             <motion.p
-              className='mb-4 max-w-[300px] mx-auto lg:mx-0'
+              className='mb-4 max-w-[300px] mx-auto lg:mx-0 lg:pl-8 lg:max-w-[350px]'
               variants={fadeIn('up', 0.4)}
               initial='hidden'
               animate='show'

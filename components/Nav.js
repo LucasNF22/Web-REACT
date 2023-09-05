@@ -13,9 +13,9 @@ export const navData = [
   { name: 'home', path: '/', icon: <HiHome /> },
   { name: 'about', path: '/about', icon: <HiUser /> },
   { name: 'skills', path: '/skills', icon: <HiRectangleGroup /> },
-  { name: 'work', path: '/work', icon: <HiViewColumns /> },
+  { name: 'proyectos', path: '/work', icon: <HiViewColumns /> },
   { name: 'testimonials', path: '/testimonials', icon: <HiChatBubbleBottomCenterText />, },
-  { name: 'contact', path: '/contact', icon: <HiEnvelope />, },
+  { name: 'contacto', path: '/contact', icon: <HiEnvelope />, },
 ];
 
 
@@ -36,7 +36,7 @@ const Nav = () => {
       >
       <div
         className='flex w-full xl:flex-col items-center justify-between xl:justify-center
-          gap-y-10 px-4 md:px-40 xl:px-0 h-[60px] xl:h-max py-8 bg-white/10 backdrop-blur-sm
+          gap-y-10 px-4 md:px-40 xl:px-0 h-[60px] xl:h-max py-8 bg-gris/60 backdrop-blur-sm
           text-3xl xl:text-xl xl:rounded-full'
         >
         {/* inner */}

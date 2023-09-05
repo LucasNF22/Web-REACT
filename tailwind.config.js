@@ -37,7 +37,7 @@ module.exports = {
         site: 'url("/site-bg.svg")',
       },
       animation: {
-        "spin-slow": "spin 8s linear infinite",
+        "spin-slow": "spin 18s linear infinite",
       },
       fontFamily: {
         poppins: ['var(--font-poppins)'],
