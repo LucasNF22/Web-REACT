@@ -1,5 +1,6 @@
-import { motion } from "framer-motion";
 import { useState } from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 
 export const skillClass = [
   {
@@ -30,57 +31,131 @@ export const skills = [
     type: "fr",
   },
   {
-    name: "Reaqweqwct",
+    name: "JavaScript",
     type: "fr",
   },
   {
-    name: "Reqweact",
-    type: "fr",
-  },
-  {
-    name: "Reaqwect",
-    type: "fr",
-  },
-  {
-    name: "Rqweeqweeact",
-    type: "fr",
-  },
-  {
-    name: "Reacqweqweet",
-    type: "fr",
-  },
-  {
-    name: "Reac qwe t",
-    type: "fr",
-  },
-  {
-    name: "Reqwe qact",
-    type: "fr",
-  },
-  {
-    name: "Reqweact",
-    type: "fr",
-  },
-  {
-    name: "React",
-    type: "fr",
-  },
-  {
-    name: "Javascript",
+    name: "Express JS",
     type: "bk",
   },
   {
-    name: "Figma",
-    type: "ui",
+    name: "CSS",
+    type: "fr",
+  },
+  {
+    name: "HTML",
+    type: "fr",
+  },
+  {
+    name: "My SQL",
+    type: "bk",
+  },
+  {
+    name: "PHP",
+    type: "bk",
+  },
+  {
+    name: "Node Js",
+    type: "bk",
+  },
+  {
+    name: "Api Rest",
+    type: "bk",
+  },
+  {
+    name: "Scrum",
+    type: "ot",
+  },
+  {
+    name: "Sequelize",
+    type: "bk",
+  },
+  {
+    name: "Postman",
+    type: "bk",
+  },
+  {
+    name: "Scss",
+    type: "fr",
+  },
+  {
+    name: "Gulp",
+    type: "fr",
+  },
+  {
+    name: "BEM",
+    type: "fr",
+  },
+  {
+    name: "Crud",
+    type: "bk",
+  },
+  {
+    name: "Photoshop",
+    type: "ds",
   },
   {
     name: "Illustrator",
     type: "ds",
   },
   {
-    name: "Corona Render",
+    name: "3D Max",
+    type: "ds",
+  },
+  {
+    name: "Corona-Renderer",
+    type: "ds",
+  },
+  {
+    name: "Vray",
+    type: "ds",
+  },
+  {
+    name: "TypeScript",
+    type: "fr",
+  },
+  {
+    name: "MongDB",
+    type: "bk",
+  },
+  {
+    name: "FireBase",
+    type: "bk",
+  },
+  {
+    name: "Redux",
+    type: "fr",
+  },
+  {
+    name: "BootStrap",
+    type: "fr",
+  },
+  {
+    name: "Next JS",
+    type: "fr",
+  },
+  {
+    name: "Framer Motion",
+    type: "fr",
+  },
+  {
+    name: "Spline",
+    type: "fr",
+  },
+  {
+    name: "Figma",
+    type: "ui",
+  },
+  {
+    name: "Trello",
     type: "ot",
   },
+  {
+    name: "Miro",
+    type: "ui",
+  },
+  
+  
 ];
 
 const SkillsGrid = () => {
@@ -113,7 +188,9 @@ const SkillsGrid = () => {
         })}
       </div>
 
-      <div className="pt-6 flex flex-wrap gap-6 max-w-[700px] justify-center lg:justify-start group w-full">
+      <div 
+        className="pt-6 flex flex-wrap gap-6 max-w-[700px] justify-center lg:justify-start group w-full"   
+      >
         {skills.map((skill, index) => {
           console.log(skill.type);
           if (skill.type === selected) {
