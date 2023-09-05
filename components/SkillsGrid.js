@@ -162,7 +162,7 @@ const skills = [
     
 ]
 
-const SkilsGrid = () => {
+const SkillsGrid = () => {
   return (
     <section className="flex flex-wrap gap-6 max-w-[700px] justify-center group">
         {
@@ -176,4 +176,4 @@ const SkilsGrid = () => {
   )
 }
 
-export default SkilsGrid;
+export default SkillsGrid;

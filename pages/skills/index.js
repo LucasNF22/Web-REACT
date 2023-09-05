@@ -1,6 +1,6 @@
-import SkilsGrid from "../../components/SkilsGrid";
+import SkillsGrid from "../../components/SkillsGrid";
 
-const Skils = () => {
+const Skills = () => {
   return(
     <div className="container mx-auto py-32 text-center xl:text-left flex items-start justify-center gap-10 h-full ">
       <h2 className='h2'>
@@ -8,10 +8,10 @@ const Skils = () => {
         <span className="text-accent">{'Utilizadas'}</span>
         <span className="text-secondary">{'}'}</span>
       </h2>
-      <SkilsGrid/>
+      <SkillsGrid/>
 
     </div>
   )
 };
 
-export default Skils;
+export default Skills;
