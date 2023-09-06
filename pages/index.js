@@ -8,17 +8,15 @@ const Home = () => {
   return (
     <>
       <Head>
-        <script
-          type="module"
-          src="https://unpkg.com/@splinetool/viewer@0.9.434/build/spline-viewer.js"
-        ></script>
+      <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.438/build/spline-viewer.js"></script>
       </Head>
       <div className=" flex justify-center w-full relative ">
-      <div className="w-full absolute left-[53.5%] top-[30%] hidden xl:flex">
+      <div className="w-full absolute left-[53.5%] top-[30%] hidden xl:flex"  >
     
-<spline-viewer loading-anim url="https://prod.spline.design/8zWXoV-FQitNq5GP/scene.splinecode"></spline-viewer>
+      
+      <spline-viewer loading-anim url="https://prod.spline.design/8zWXoV-FQitNq5GP/scene.splinecode"></spline-viewer>
             
-            </div>
+      </div>
         <div className="  ">
           <div className="text-center flex flex-col justify-start pt-10 xl:pt-40 xl:text-left h-full container mx-auto ">
             <motion.h1
@@ -38,8 +36,7 @@ const Home = () => {
               animate="show"
               exit="hidden"
             >
-              asjdasdjhfglasfgkajshdgfkasjdhfgkasjdgf.asd fasiduflashfgkasjdfglb
-              alsjdfloasbflowibfli
+              Diseño, Tecnología y Desarrollo.
             </motion.p>
             <div className="flex justify-center xl:hidden relative">
               <ProjectsBtn />

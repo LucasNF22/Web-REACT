@@ -33,8 +33,7 @@ const Work = () => {
               animate='show'
               exit='hidden'
             >
-              Estos son algunos de los trabajos realizados a lo largo de mi desarrollo:
-
+              Trabajos realizados a lo largo de mi desarrollo:
             </motion.p>
 
           </div>

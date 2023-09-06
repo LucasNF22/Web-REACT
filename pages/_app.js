@@ -9,7 +9,7 @@ import Transition from '../components/Transition';
 import { useRouter } from 'next/router';
 
 // Framer Motion
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 
 
 function MyApp({ Component, pageProps }) {
@@ -19,10 +19,10 @@ function MyApp({ Component, pageProps }) {
   return(
     <Layout  >
       <AnimatePresence mode='wait'>
-        <motion.div key={router.route} className='h-full bg-primary'>
+        <div key={router.route} className='h-full bg-primary'>
           <Transition />
           <Component {...pageProps} />
-        </motion.div>
+        </div>
       </AnimatePresence>
     </Layout>
   )
