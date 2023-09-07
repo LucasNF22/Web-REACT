@@ -5,8 +5,8 @@ import SkillsGrid from "../../components/SkillsGrid";
 
 const Skills = () => {
   return (
-    <div className="h-full py-16 xl:py-32 text-center xl:text-left ">
-      <div className="container mx-auto flex flex-col gap-y-8 lg:items-start xl:flex-row gap-x-20 pl-10">
+    <div className=" py-16 xl:py-32 text-center justify-center xl:text-left pb-[100px] ">
+      <div className="container mx-auto flex flex-col gap-y-8 lg:items-start xl:flex-row gap-x-20 pb-10">
         <motion.h2
           variants={fadeIn("right", 0.3)}
           initial="hidden"

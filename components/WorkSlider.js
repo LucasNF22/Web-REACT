@@ -65,19 +65,20 @@ const WorkSlider = () => {
       }}
       // scrollbar={{ draggable: true }}
       modules={[Pagination, Mousewheel]}
-      className="h-full"
+      className="h-full "
     >
       {workSlider.slides.map((slide, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2 lg:grid-rows-2 gap-4 h-max pb-10 ">
+            <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2 lg:grid-rows-2 gap-4 h-max p-5 pb-10  bg-gris/20 rounded-lg ">
               {slide.works.map((work, index) => {
                 return (
                   <div
-                    className="relative overflow-hidden rounded-lg flex items-center justify-center group aspect-video "
+                    className="relative overflow-hidden rounded-lg flex items-center justify-center mx-auto group aspect-video "
                     key={index}
                   >
-                    <div className="flex items-center justify-center relative overflow-hidden group">
+                  
+                    <div className="flex items-center justify-center relative overflow-hidden rounded-lg w-full group">
                       
                         <Image
                           className="w-full"

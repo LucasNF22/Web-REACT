@@ -43,13 +43,13 @@
 
 @layer base {
   *{
-    @apply font-poppins
+    @apply font-poppins ;
   }
   body {
-    @apply  xl:overflow-hidden  leading-relaxed ;
+    @apply  xl:overflow-hidden  leading-relaxed bg-primary;
   }
   .page {
-    @apply w-full h-screen xl:overflow-hidden ;
+    @apply w-full  xl:overflow-hidden ;
   }
   .h1 {
     @apply text-[35px] leading-tight md:text-[60px] md:leading-[1.3]  font-semibold;

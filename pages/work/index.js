@@ -6,7 +6,7 @@ import { fadeIn } from '../../variants';
 
 const Work = () => {
   return (
-    <div className=" bg-primary/30 flex items-start xl:items-center pt-10 h-full md:pb-[120px]">
+    <div className=" bg-primary/30 flex items-start xl:items-center pt-10 h-full pb-[80px]">
       
       <div className="container mx-auto">
         
