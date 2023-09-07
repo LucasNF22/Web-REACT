@@ -2,9 +2,19 @@ import Head from "next/head";
 import ProjectsBtn from "../components/ProjectsBtn";
 import { fadeIn } from "../variants";
 import { motion } from "framer-motion";
-import Script from "next/script";
+
+
+
+import { Application } from '@splinetool/runtime';
+
+
 
 const Home = () => {
+  const canvas = document.getElementById('canvas3d');
+  const app = new Application(canvas);
+  app.load('https://prod.spline.design/8zWXoV-FQitNq5GP/scene.splinecode');
+
+
   return (
     <>
       <Head>

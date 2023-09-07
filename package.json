@@ -20,6 +20,7 @@
     "tailwind-scrollbar": "^3.0.4"
   },
   "devDependencies": {
+    "@splinetool/runtime": "^0.9.441",
     "autoprefixer": "^10.4.15",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
