@@ -2,13 +2,19 @@ import Head from "next/head";
 import ProjectsBtn from "../components/ProjectsBtn";
 import { fadeIn } from "../variants";
 import { motion } from "framer-motion";
+// import Script from "next/script";
+
+
 
 
 const Home = () => {
   return (
     <>
       <Head>
-      <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.438/build/spline-viewer.js"></script>
+      
+
+      {/* <Script src="https://unpkg.com/@splinetool/viewer@0.9.438/build/spline-viewer.js"/> */}
+      
       </Head>
       <div className=" flex justify-center w-full relative ">
       <div className="w-full absolute left-[53.5%] top-[30%] hidden xl:flex"  >
