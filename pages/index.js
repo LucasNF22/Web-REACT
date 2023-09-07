@@ -2,27 +2,24 @@ import Head from "next/head";
 import ProjectsBtn from "../components/ProjectsBtn";
 import { fadeIn } from "../variants";
 import { motion } from "framer-motion";
-// import Script from "next/script";
-
-
-
+import Script from "next/script";
 
 const Home = () => {
   return (
     <>
       <Head>
-      
-
-      {/* <Script src="https://unpkg.com/@splinetool/viewer@0.9.438/build/spline-viewer.js"/> */}
-      
+        <script
+          type="module"
+          src="https://unpkg.com/@splinetool/viewer@0.9.438/build/spline-viewer.js"
+        />
       </Head>
-      <div className=" flex justify-center w-full relative ">
-      <div className="w-full absolute left-[53.5%] top-[30%] hidden xl:flex"  >
-    
-      
-      <spline-viewer loading-anim url="https://prod.spline.design/8zWXoV-FQitNq5GP/scene.splinecode"></spline-viewer>
-            
-      </div>
+      <div className=" flex justify-center w-full relative pb-10">
+        <div className="w-full absolute left-[53.5%] top-[30%] hidden xl:flex ">
+          <spline-viewer
+            loading-anim
+            url="https://prod.spline.design/8zWXoV-FQitNq5GP/scene.splinecode"
+          ></spline-viewer>
+        </div>
         <div className="  ">
           <div className="text-center flex flex-col justify-start pt-10 xl:pt-40 xl:text-left h-full container mx-auto ">
             <motion.h1
@@ -65,10 +62,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-          >
-            
-
-          </motion.div>
+          ></motion.div>
         </div>
       </div>
     </>
