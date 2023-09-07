@@ -57,7 +57,7 @@ export const workSlider = {
 const WorkSlider = () => {
   return (
     <Swiper
-    direction="horizontal"
+      direction="horizontal"
       spaceBetween={10}
       mousewheel={true}
       pagination={{

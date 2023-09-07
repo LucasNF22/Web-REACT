@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
   return(
     <Layout  >
       <AnimatePresence mode='wait'>
-        <div key={router.route} className='h-full bg-primary'>
+        <div key={router.route} className='h-full bg-primary '>
           <Transition />
           <Component {...pageProps} />
         </div>

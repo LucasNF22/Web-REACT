@@ -4,17 +4,17 @@ import {
   HiUser,
   HiViewColumns,
   HiRectangleGroup,
-  HiChatBubbleBottomCenterText,
   HiEnvelope,
+  HiShoppingBag
 } from 'react-icons/hi2';
 
 // nav data
 export const navData = [
   { name: 'home', path: '/', icon: <HiHome /> },
   { name: 'sobre mí', path: '/about', icon: <HiUser /> },
-  { name: 'skills', path: '/skills', icon: <HiRectangleGroup /> },
-  { name: 'proyectos', path: '/work', icon: <HiViewColumns /> },
-  { name: 'servicios', path: '/services', icon: <HiChatBubbleBottomCenterText />, },
+  { name: 'proyectos', path: '/work', icon: <HiRectangleGroup /> },
+  { name: 'skills', path: '/skills', icon: <HiViewColumns /> },
+  { name: 'servicios', path: '/services', icon: <HiShoppingBag />, },
   { name: 'contacto', path: '/contact', icon: <HiEnvelope />, },
 ];
 

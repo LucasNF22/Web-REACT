@@ -21,10 +21,10 @@ const Work = () => {
               exit='hidden'
 
             >
-             <span className='text-secondary'>{"{"}</span> 
-             Hola 
-             <span className='text-accent'>Mundo</span>
-             <span className='text-secondary'>{"}"}</span>
+             <span className='text-secondary'>{"<"}</span> 
+             Proyectos
+             <span className='text-accent'>{"/"}</span>
+             <span className='text-secondary'>{">"}</span>
             </motion.h2>
             <motion.p
               className='mb-4 max-w-[300px] mx-auto lg:mx-0 lg:pl-8 lg:max-w-[350px]'
