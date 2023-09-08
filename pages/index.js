@@ -1,35 +1,20 @@
-import Head from "next/head";
+
 import ProjectsBtn from "../components/ProjectsBtn";
 import { fadeIn } from "../variants";
 import { motion } from "framer-motion";
 
-
-
-import { Application } from '@splinetool/runtime';
+import { Spline3D } from "../components/Spline3D";
 
 
 
 const Home = () => {
-  const canvas = document.getElementById('canvas3d');
-  const app = new Application(canvas);
-  app.load('https://prod.spline.design/8zWXoV-FQitNq5GP/scene.splinecode');
 
 
   return (
     <>
-      <Head>
-        <script
-          type="module"
-          src="https://unpkg.com/@splinetool/viewer@0.9.438/build/spline-viewer.js"
-        />
-      </Head>
-      <div className=" flex justify-center w-full relative pb-10">
-        <div className="w-full absolute left-[53.5%] top-[30%] hidden xl:flex ">
-          <spline-viewer
-            loading-anim
-            url="https://prod.spline.design/8zWXoV-FQitNq5GP/scene.splinecode"
-          ></spline-viewer>
-        </div>
+      
+      <div className=" flex flex-col xl:flex-row justify-center items-center w-full relative pb-10">
+        
         <div className="  ">
           <div className="text-center flex flex-col justify-start pt-10 xl:pt-40 xl:text-left h-full container mx-auto ">
             <motion.h1
@@ -51,9 +36,7 @@ const Home = () => {
             >
               Diseño, Tecnología y Desarrollo.
             </motion.p>
-            <div className="flex justify-center xl:hidden relative">
-              <ProjectsBtn />
-            </div>
+            
             <motion.div
               variants={fadeIn("down", 0.4)}
               initial="hidden"
@@ -65,14 +48,8 @@ const Home = () => {
             </motion.div>
           </div>
         </div>
-        <div className="basis-[40%] h-full flex-col items-center text-white text-center justify-start pt-10 xl:pt-40 container hidden xl:flex ">
-          <motion.div
-            // className="border w-[500px] h-[500px] rounded-full bg-gris flex justify-center items-center"
-            variants={fadeIn("center", 0.6)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-          ></motion.div>
+        <div className="xl:basis-[40%] flex items-center justify-center pt-10 xl:pt-40 container ">
+        <Spline3D/>
         </div>
       </div>
     </>

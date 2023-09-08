@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/font": "^13.4.4",
+    "@splinetool/react-spline": "^2.2.6",
     "framer-motion": "^10.12.16",
     "next": "13.4.3",
     "react": "18.2.0",
@@ -20,7 +21,7 @@
     "tailwind-scrollbar": "^3.0.4"
   },
   "devDependencies": {
-    "@splinetool/runtime": "^0.9.441",
+    "@splinetool/runtime": "^0.9.442",
     "autoprefixer": "^10.4.15",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",

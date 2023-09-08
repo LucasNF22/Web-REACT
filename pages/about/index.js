@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
+import {Spline3D }from "../../components/Spline3D";
+
+
 
 const About = () => {
+  
 
 
   return (
@@ -13,6 +16,8 @@ const About = () => {
           <span className="text-accent">Mundo</span>
           <span className="text-secondary">{"}"}</span>
         </h2>
+        <Spline3D />
+
       </div>
     </div>
   );
