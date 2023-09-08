@@ -22,8 +22,8 @@ export const Spline3D = () => {
           animate='show'
           exit='hidden'
         >
-        <Spline
-            scene="https://prod.spline.design/8zWXoV-FQitNq5GP/scene.splinecode"
+        <Spline  
+            scene="https://draft.spline.design/K2oXVLJNHp-l5xoD/scene.splinecode"
             className={
               `${isHide && "hidden" }
               flex transition-all duration-400 `}
