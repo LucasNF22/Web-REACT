@@ -16,7 +16,7 @@ const About = () => {
           <span className="text-accent">Mundo</span>
           <span className="text-secondary">{"}"}</span>
         </h2>
-        <Spline3D />
+      
 
       </div>
     </div>

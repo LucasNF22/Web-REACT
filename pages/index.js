@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       
-      <div className=" flex flex-col xl:flex-row justify-center items-center w-full relative pb-10">
+      <div className=" flex flex-col xl:flex-row justify-center items-center w-full relative pb-10 ">
         
         <div className="  ">
           <div className="text-center flex flex-col justify-start pt-10 xl:pt-40 xl:text-left h-full container mx-auto ">
@@ -48,7 +48,7 @@ const Home = () => {
             </motion.div>
           </div>
         </div>
-        <div className="xl:basis-[40%] flex items-center justify-center pt-10 xl:pt-40 container ">
+        <div className="xl:basis-[40%] flex items-center justify-center xl:pt-40 container ">
         <Spline3D/>
         </div>
       </div>

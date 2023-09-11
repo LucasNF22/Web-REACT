@@ -13,17 +13,17 @@ export const servicios = [
   {
     name: "Diseño",
     icon: <RxRulerSquare />,
-    desc: "asdak sjhdgka dfhdg daska",
+    desc: "Diseño responsivo y a medida.",
   },
   {
     name: "Desarrollo",
     icon: <RxCode />,
-    desc: "asdaksjhdsdfsdf  sdfs dfgkajhdgka",
+    desc: "Desarrollo de aplicacion y paginas web.",
   },
   {
     name: "Renderizado 3D",
     icon: <RxDesktop />,
-    desc: "asdaksjhdsdf sdf sdj aajhdgka",
+    desc: "Renderizado fotorrealista de alta calidad.",
   },
 ];
 

@@ -24,7 +24,7 @@ const Header = () => {
           animate='show'
           exit='hidden'
         >
-          <Link href={''} >
+          <Link href={'/'} >
             <Image
               src={'/logo-white.svg'}
               width={100}

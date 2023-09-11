@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <div className=''>
-      <div className='container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full'>
+      <div className='container mx-auto pt-10 xl:pt-16 text-center xl:text-left flex items-center justify-center h-full'>
         <div className='flex flex-col w-full max-w-[700px] '>
           <motion.h2 
             className='h2 text-center mb-12'
