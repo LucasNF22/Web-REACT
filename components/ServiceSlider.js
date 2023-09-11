@@ -47,13 +47,13 @@ const ServiceSlider = () => {
         clickable: true,
       }}
       modules={[Pagination, FreeMode]}
-      className="h-[250px] "
+      className="h-[200px] sm:h-[400px] "
     >
       {
         servicios.map((servicio, index)=>{
           return (
             <SwiperSlide key={index}>
-              <div className="bg-gris/30 p-5 border border-secondary/10 rounded-lg h-max min-h-[200px] lg:min-h-full flex  sm:flex-col justify-start gap-x-6 sm:gap-0 group cursor-pointer hover:bg-accent/40  transition-all duration-200">
+              <div className="bg-gris/30 p-5 border border-secondary/10 rounded-lg h-max sm:min-h-[280px] flex sm:flex-col justify-start gap-x-6 sm:gap-0 group cursor-pointer hover:bg-accent/40  transition-all duration-200">
                 
                 <div className="text-4xl text-accent mb-4">{servicio.icon}</div>
                 
