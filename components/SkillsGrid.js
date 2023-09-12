@@ -182,9 +182,8 @@ const SkillsGrid = () => {
               key={itemIndex}
               className={` ${
                 index === itemIndex &&
-                "after:bg-accent text-accent after:w-[100%] after:transition-all after:duration-300 drop-shadow-glow"
-              } 
-                      cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-secondary after:absolute after:-bottom-1 after:left-0 hover:text-accent hover:drop-shadow-glow transition-all duration-100`}
+                "after:bg-accent text-accent after:w-[100%] after:transition-all after:duration-300 drop-shadow-glow" } 
+                cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-secondary after:absolute after:-bottom-1 after:left-0 hover:text-accent hover:drop-shadow-glow transition-all duration-100`}
               onClick={() => changeStates(itemIndex, sClass.id)}
             >
               {sClass.name}
