@@ -21,12 +21,15 @@ export const Spline3D = () => {
           initial='hidden'
           animate='show'
           exit='hidden'
+          className=" flex object-contai"
         >
         <Spline  
-            scene="https://draft.spline.design/K2oXVLJNHp-l5xoD/scene.splinecode"
+            scene="https://draft.spline.design/d2jO5JZMsl6kV4WQ/scene.splinecode"
             className={
               `${isHide && "hidden" }
-              flex transition-all duration-400 `}
+              flex transition-all duration-400 `
+              
+            }
               />
       </motion.div> 
 

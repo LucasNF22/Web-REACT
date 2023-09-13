@@ -175,7 +175,7 @@ const SkillsGrid = () => {
       animate="show"
       exit="hidden"
     >
-      <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 justify-center lg:justify-start">
+      <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 pb-6 justify-center lg:justify-start">
         {skillClass.map((sClass, itemIndex) => {
           return (
             <div
@@ -193,7 +193,7 @@ const SkillsGrid = () => {
       </div>
 
       <div 
-        className="pt-6 flex flex-wrap gap-6 max-w-[700px] justify-center lg:justify-start group w-full"   
+        className="flex flex-wrap gap-6 justify-center lg:justify-start group w-full"   
       >
         {skills.map((skill, index) => {
           if (skill.type === selected) {

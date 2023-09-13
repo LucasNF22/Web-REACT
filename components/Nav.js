@@ -13,7 +13,7 @@ export const navData = [
   { name: 'home', path: '/', icon: <HiHome /> },
   { name: 'sobre mí', path: '/about', icon: <HiUser /> },
   { name: 'proyectos', path: '/work', icon: <HiRectangleGroup /> },
-  { name: 'skills', path: '/skills', icon: <HiViewColumns /> },
+  // { name: 'skills', path: '/skills', icon: <HiViewColumns /> },
   { name: 'servicios', path: '/services', icon: <HiShoppingBag />, },
   { name: 'contacto', path: '/contact', icon: <HiEnvelope />, },
 ];
