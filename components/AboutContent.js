@@ -11,6 +11,7 @@ export const intereses = [
     "Gaming",
     "Padel", 
     "Fernet", 
+    "Mate", 
 ]
 
 
