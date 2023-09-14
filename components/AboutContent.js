@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
@@ -9,6 +9,7 @@ export const intereses = [
     "Diseño",
     "Tecnología",
     "Gaming",
+    "Padel", 
     "Fernet", 
 ]
 

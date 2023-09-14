@@ -3,6 +3,36 @@ import { Pagination, Mousewheel } from "swiper";
 import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image";
 
+import {
+  DiReact,
+  DiJsBadge,
+  DiBootstrap,
+  DiNodejs,
+  DiPhp,
+
+} from 'react-icons/di';
+
+
+import {
+  SiNextdotjs,
+  SiFramer,
+  SiExpress,
+  SiMysql,
+  SiMongodb,
+  SiFirebase,
+  SiRedux,
+
+} from 'react-icons/si';
+
+
+import {
+  TbBrandFramerMotion,
+
+} from 'react-icons/tb';
+
+
+
+
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
