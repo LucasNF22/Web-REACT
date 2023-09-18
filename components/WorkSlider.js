@@ -84,6 +84,11 @@ export const workSlider = {
           path: "/primaveraSound.jpg",
           url: "https://primaverasoundfestival.netlify.app/"
         },
+        {
+          title: "Journal App",
+          path: "/JournalApp.jpg",
+          url: "https://github.com/LucasNF22/Ejercicio-JournalApp"
+        },
   
 
       ],
@@ -125,6 +130,7 @@ const WorkSlider = () => {
                           width={500}
                           height={100}
                           alt=""
+                          lazy
                         />
                         <div className="absolute inset-0 bg-accent/50 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-all duration-500 "></div>
                         
