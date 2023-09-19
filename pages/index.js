@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 
 import { Spline3D } from "../components/Spline3D";
 
+import { Metadata } from 'next'
+ 
 
 
 const Home = () => {
@@ -12,7 +14,9 @@ const Home = () => {
 
   return (
     <>
-      
+      <title>LNF-Dev</title>
+      <link rel="icon" href="/favicon-32x32" />
+
       <div className=" flex flex-col xl:flex-row justify-center items-center w-full relative pb-10 ">
         
         <div className="  ">
