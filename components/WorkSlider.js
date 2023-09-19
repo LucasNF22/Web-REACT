@@ -87,7 +87,7 @@ export const workSlider = {
         {
           title: "Journal App",
           path: "/JournalApp.jpg",
-          url: "https://github.com/LucasNF22/Ejercicio-JournalApp"
+          url: "https://your-note-app.vercel.app/"
         },
   
 

@@ -15,7 +15,8 @@ const Home = () => {
   return (
     <>
       <title>LNF-Dev</title>
-      <link rel="icon" href="/favicon-32x32.png" />
+      <link rel="icon" type="image/png" href="/favicon-32x32.png" />
+      <link rel="icon" type="image/png" href="/favicon-16x16.png" />
 
       <div className=" flex flex-col xl:flex-row justify-center items-center w-full relative pb-10 ">
         
