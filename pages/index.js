@@ -4,9 +4,7 @@ import { fadeIn } from "../variants";
 import { motion } from "framer-motion";
 
 import { Spline3D } from "../components/Spline3D";
-
-import { Metadata } from 'next'
- 
+import { Suspense } from "react";
 
 
 const Home = () => {
@@ -54,7 +52,11 @@ const Home = () => {
           </div>
         </div>
         <div className="xl:basis-[40%] flex items-center justify-center xl:pt-40 container ">
-        <Spline3D/>
+        <Suspense fallback={'sdjfhskjfhsjkfhksjdf'}>
+
+          <Spline3D/>
+        </Suspense>
+  
         </div>
       </div>
     </>

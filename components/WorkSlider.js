@@ -38,6 +38,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Link from "next/link";
+import { Suspense } from "react";
 
 // data
 export const workSlider = {
@@ -99,6 +100,7 @@ export const workSlider = {
 
 const WorkSlider = () => {
   return (
+    <Suspense fallback={'cargando'}>
     <Swiper
       direction="horizontal"
       spaceBetween={10}
@@ -129,7 +131,7 @@ const WorkSlider = () => {
                           src={work.path}
                           width={500}
                           height={100}
-                          alt=""
+                          alt={work.title}
                           lazy
                         />
                         <div className="absolute inset-0 bg-accent/50 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-all duration-500 "></div>
@@ -163,6 +165,7 @@ const WorkSlider = () => {
         );
       })}
     </Swiper>
+      </Suspense>
   );
 };
 
