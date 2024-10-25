@@ -52,11 +52,11 @@ const Contact = () => {
             exit="hidden"
           >
             <div className='flex gap-x-6 w-full'>
-              <input type='text' placeholder='Nombre' name='userName' className='input border-secondary'/>
-              <input type='text' placeholder='Email' name='userEmail' className='input border-secondary'/>
+              <input type='text' required placeholder='Nombre' name='userName' className='input border-secondary invalid:[&:focus]:border-red-500'/>
+              <input type='email' required placeholder='Email' name='userEmail' className='input border-secondary  invalid:[&:focus]:border-red-500'/>
             </div>
               <input type='text' placeholder='Asunto' name='subject' className='input border-secondary'/>
-              <textarea placeholder='Mensaje' name='message' className='textarea border-secondary'></textarea>
+              <textarea required placeholder='Mensaje' name='message' className='textarea border-secondary  invalid:[&:focus]:border-red-500'></textarea>
               <button type='submit' className='btn rounded-full border border-secondary/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent  group hover:drop-shadow-glow '>
                 <span className='group-hover:translate-x-[120%] group-hover:opacity-0 transition-all duration-300'>Enviar</span>
                 <BsArrowRight className='-translate-x-[120%] opacity-0 group-hover:flex group-hover:-translate-x-0 group-hover:opacity-100 transition-all duration-300 absolute text-[28px] '/>
